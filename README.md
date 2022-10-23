@@ -23,5 +23,5 @@ The data used this time is accommodation reservation data in Portugal. There are
 ![CANCELLATION EVENTS](image/10.png)
 ![CANCELLATION EVENTS](image/11.png)
 ## Model Summary and Conclusion
-![CANCELLATION EVENTS](image/12.png)
+![CANCELLATION EVENTS](image/12.PNG)
 The cancellation prediction process compares several tree-based classification models and ensemble learning. The models include decision trees, random forests, gradient boosting, and XGBoost. Based on the modeling results, the decision tree and random forest are the models with the worst performance. Although the trained model has high accuracy, the test model has very low accuracy. Overfitting on these two models occurs. Then the other two models which are sequential ensemble learning based, namely gradient boosting and XGBoost have better performance. Although the accuracy of the model is low, there is no overfitting. The difference between the two is not that significant, but the gradient boosting is slightly better. Then, the improved model is carried out using random search hyperparameter tuning to the gradient boosting model. The results are pretty good. The accuracy of the testing model has increased.
